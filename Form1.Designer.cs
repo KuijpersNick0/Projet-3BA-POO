@@ -1,16 +1,16 @@
-﻿namespace WindowsFormsApp2
+﻿namespace PrjtInfoBA3_2
 {
     partial class Form1
     {
         /// <summary>
-        /// Variable nécessaire au concepteur.
+        /// Required designer variable.
         /// </summary>
         private System.ComponentModel.IContainer components = null;
 
         /// <summary>
-        /// Nettoyage des ressources utilisées.
+        /// Clean up any resources being used.
         /// </summary>
-        /// <param name="disposing">true si les ressources managées doivent être supprimées ; sinon, false.</param>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -20,223 +20,252 @@
             base.Dispose(disposing);
         }
 
-        #region Code généré par le Concepteur Windows Form
+        #region Windows Form Designer generated code
 
         /// <summary>
-        /// Méthode requise pour la prise en charge du concepteur - ne modifiez pas
-        /// le contenu de cette méthode avec l'éditeur de code.
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent()
         {
-            this.diagramControl1 = new DevExpress.XtraDiagram.DiagramControl();
-            this.diagramShape1 = new DevExpress.XtraDiagram.DiagramShape();
-            this.diagramShape2 = new DevExpress.XtraDiagram.DiagramShape();
-            this.diagramShape3 = new DevExpress.XtraDiagram.DiagramShape();
-            this.diagramShape4 = new DevExpress.XtraDiagram.DiagramShape();
-            this.diagramShape5 = new DevExpress.XtraDiagram.DiagramShape();
-            this.diagramShape6 = new DevExpress.XtraDiagram.DiagramShape();
-            this.diagramShape7 = new DevExpress.XtraDiagram.DiagramShape();
-            this.diagramConnector1 = new DevExpress.XtraDiagram.DiagramConnector();
-            this.diagramConnector2 = new DevExpress.XtraDiagram.DiagramConnector();
-            this.diagramConnector3 = new DevExpress.XtraDiagram.DiagramConnector();
-            this.diagramConnector4 = new DevExpress.XtraDiagram.DiagramConnector();
-            this.diagramConnector5 = new DevExpress.XtraDiagram.DiagramConnector();
-            this.diagramConnector6 = new DevExpress.XtraDiagram.DiagramConnector();
-            this.diagramConnector7 = new DevExpress.XtraDiagram.DiagramConnector();
-            this.diagramShape8 = new DevExpress.XtraDiagram.DiagramShape();
-            ((System.ComponentModel.ISupportInitialize)(this.diagramControl1)).BeginInit();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.txtCreer = new System.Windows.Forms.TextBox();
+            this.txtProduction = new System.Windows.Forms.TextBox();
+            this.txtCoutProd = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.txtPol = new System.Windows.Forms.TextBox();
+            this.lstInfo = new System.Windows.Forms.ListBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.rdoCentrale = new System.Windows.Forms.RadioButton();
+            this.rdoConso = new System.Windows.Forms.RadioButton();
+            this.label6 = new System.Windows.Forms.Label();
+            this.txtConsomation = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.txtNom = new System.Windows.Forms.TextBox();
+            this.lstInfo2 = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
             // 
-            // diagramControl1
+            // label1
             // 
-            this.diagramControl1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.diagramControl1.Items.AddRange(new DevExpress.XtraDiagram.DiagramItem[] {
-            this.diagramShape1,
-            this.diagramShape2,
-            this.diagramShape3,
-            this.diagramShape4,
-            this.diagramShape5,
-            this.diagramShape6,
-            this.diagramShape7,
-            this.diagramConnector1,
-            this.diagramConnector2,
-            this.diagramConnector3,
-            this.diagramConnector4,
-            this.diagramConnector5,
-            this.diagramConnector6,
-            this.diagramConnector7,
-            this.diagramShape8});
-            this.diagramControl1.Location = new System.Drawing.Point(0, 0);
-            this.diagramControl1.Name = "diagramControl1";
-            this.diagramControl1.OptionsBehavior.SelectedStencils = new DevExpress.Diagram.Core.StencilCollection(new string[] {
-            "BasicShapes",
-            "BasicFlowchartShapes"});
-            this.diagramControl1.OptionsView.PaperKind = System.Drawing.Printing.PaperKind.Letter;
-            this.diagramControl1.Size = new System.Drawing.Size(800, 450);
-            this.diagramControl1.TabIndex = 0;
-            this.diagramControl1.Text = "diagramControl1";
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(36, 93);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(43, 17);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Creer";
             // 
-            // diagramShape1
+            // label2
             // 
-            this.diagramShape1.Content = "Entreprise";
-            this.diagramShape1.Position = new DevExpress.Utils.PointFloat(140F, 330F);
-            this.diagramShape1.Shape = DevExpress.Diagram.Core.BasicShapes.Ellipse;
-            this.diagramShape1.Size = new System.Drawing.SizeF(100F, 75F);
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(36, 124);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(76, 17);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "Production";
             // 
-            // diagramShape2
+            // label3
             // 
-            this.diagramShape2.Position = new DevExpress.Utils.PointFloat(240F, 360F);
-            this.diagramShape2.Shape = DevExpress.Diagram.Core.BasicShapes.Decagon;
-            this.diagramShape2.Size = new System.Drawing.SizeF(15F, 15F);
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(36, 156);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(109, 17);
+            this.label3.TabIndex = 2;
+            this.label3.Text = "Cout Production";
             // 
-            // diagramShape3
+            // txtCreer
             // 
-            this.diagramShape3.Position = new DevExpress.Utils.PointFloat(650F, 360F);
-            this.diagramShape3.Shape = DevExpress.Diagram.Core.BasicShapes.Decagon;
-            this.diagramShape3.Size = new System.Drawing.SizeF(15F, 15F);
+            this.txtCreer.Location = new System.Drawing.Point(156, 93);
+            this.txtCreer.Name = "txtCreer";
+            this.txtCreer.Size = new System.Drawing.Size(159, 22);
+            this.txtCreer.TabIndex = 3;
             // 
-            // diagramShape4
+            // txtProduction
             // 
-            this.diagramShape4.Content = "nucléaire";
-            this.diagramShape4.Position = new DevExpress.Utils.PointFloat(750F, 120F);
-            this.diagramShape4.Size = new System.Drawing.SizeF(100F, 75F);
+            this.txtProduction.Location = new System.Drawing.Point(156, 121);
+            this.txtProduction.Name = "txtProduction";
+            this.txtProduction.Size = new System.Drawing.Size(159, 22);
+            this.txtProduction.TabIndex = 4;
             // 
-            // diagramShape5
+            // txtCoutProd
             // 
-            this.diagramShape5.Content = "GAZ";
-            this.diagramShape5.Position = new DevExpress.Utils.PointFloat(750F, 220F);
-            this.diagramShape5.Shape = DevExpress.Diagram.Core.BasicShapes.Triangle;
-            this.diagramShape5.Size = new System.Drawing.SizeF(100F, 90F);
+            this.txtCoutProd.Location = new System.Drawing.Point(156, 153);
+            this.txtCoutProd.Name = "txtCoutProd";
+            this.txtCoutProd.Size = new System.Drawing.Size(159, 22);
+            this.txtCoutProd.TabIndex = 5;
             // 
-            // diagramShape6
+            // label4
             // 
-            this.diagramShape6.Content = "parc éolien";
-            this.diagramShape6.Position = new DevExpress.Utils.PointFloat(750F, 330F);
-            this.diagramShape6.Shape = DevExpress.Diagram.Core.BasicShapes.Pentagon;
-            this.diagramShape6.Size = new System.Drawing.SizeF(100F, 100F);
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(36, 188);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(59, 17);
+            this.label4.TabIndex = 6;
+            this.label4.Text = "Polution";
             // 
-            // diagramShape7
+            // txtPol
             // 
-            this.diagramShape7.Content = "solaire";
-            this.diagramShape7.Position = new DevExpress.Utils.PointFloat(750F, 460F);
-            this.diagramShape7.Shape = DevExpress.Diagram.Core.BasicShapes.Hexagon;
-            this.diagramShape7.Size = new System.Drawing.SizeF(100F, 100F);
+            this.txtPol.Location = new System.Drawing.Point(156, 185);
+            this.txtPol.Name = "txtPol";
+            this.txtPol.Size = new System.Drawing.Size(159, 22);
+            this.txtPol.TabIndex = 7;
             // 
-            // diagramConnector1
+            // lstInfo
             // 
-            this.diagramConnector1.Appearance.ContentBackground = System.Drawing.Color.White;
-            this.diagramConnector1.BeginItem = this.diagramShape4;
-            this.diagramConnector1.BeginPoint = new DevExpress.Utils.PointFloat(750F, 157.5F);
-            this.diagramConnector1.EndItem = this.diagramShape3;
-            this.diagramConnector1.EndItemPointIndex = 8;
-            this.diagramConnector1.EndPoint = new DevExpress.Utils.PointFloat(659.8176F, 360.3671F);
-            this.diagramConnector1.Points = new DevExpress.XtraDiagram.PointCollection(new DevExpress.Utils.PointFloat[] {
-            new DevExpress.Utils.PointFloat(800F, 210F),
-            new DevExpress.Utils.PointFloat(659.8176F, 210F)});
+            this.lstInfo.FormattingEnabled = true;
+            this.lstInfo.ItemHeight = 16;
+            this.lstInfo.Location = new System.Drawing.Point(39, 261);
+            this.lstInfo.Name = "lstInfo";
+            this.lstInfo.Size = new System.Drawing.Size(498, 164);
+            this.lstInfo.TabIndex = 8;
             // 
-            // diagramConnector2
+            // button1
             // 
-            this.diagramConnector2.Appearance.ContentBackground = System.Drawing.Color.White;
-            this.diagramConnector2.BeginItem = this.diagramShape5;
-            this.diagramConnector2.BeginPoint = new DevExpress.Utils.PointFloat(750F, 310F);
-            this.diagramConnector2.EndItem = this.diagramShape3;
-            this.diagramConnector2.EndItemPointIndex = 0;
-            this.diagramConnector2.EndPoint = new DevExpress.Utils.PointFloat(665F, 367.5F);
-            this.diagramConnector2.Points = new DevExpress.XtraDiagram.PointCollection(new DevExpress.Utils.PointFloat[] {
-            new DevExpress.Utils.PointFloat(682F, 310F),
-            new DevExpress.Utils.PointFloat(682F, 367.5F)});
+            this.button1.Location = new System.Drawing.Point(345, 97);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(79, 45);
+            this.button1.TabIndex = 9;
+            this.button1.Text = "Ajouter";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.btnAjouter);
             // 
-            // diagramConnector3
+            // textBox5
             // 
-            this.diagramConnector3.Appearance.ContentBackground = System.Drawing.Color.White;
-            this.diagramConnector3.BeginItem = this.diagramShape6;
-            this.diagramConnector3.BeginPoint = new DevExpress.Utils.PointFloat(752.4472F, 364.5492F);
-            this.diagramConnector3.EndItem = this.diagramShape6;
-            this.diagramConnector3.EndPoint = new DevExpress.Utils.PointFloat(752.4472F, 364.5492F);
-            this.diagramConnector3.Points = new DevExpress.XtraDiagram.PointCollection(new DevExpress.Utils.PointFloat[0]);
+            this.textBox5.Location = new System.Drawing.Point(156, 218);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(159, 22);
+            this.textBox5.TabIndex = 10;
             // 
-            // diagramConnector4
+            // label5
             // 
-            this.diagramConnector4.Appearance.ContentBackground = System.Drawing.Color.White;
-            this.diagramConnector4.BeginItem = this.diagramShape6;
-            this.diagramConnector4.BeginPoint = new DevExpress.Utils.PointFloat(770.6107F, 420.4508F);
-            this.diagramConnector4.EndItem = this.diagramShape6;
-            this.diagramConnector4.EndPoint = new DevExpress.Utils.PointFloat(752.4472F, 364.5492F);
-            this.diagramConnector4.Points = new DevExpress.XtraDiagram.PointCollection(new DevExpress.Utils.PointFloat[0]);
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(36, 221);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(74, 17);
+            this.label5.TabIndex = 11;
+            this.label5.Text = "Connexion";
             // 
-            // diagramConnector5
+            // rdoCentrale
             // 
-            this.diagramConnector5.Appearance.ContentBackground = System.Drawing.Color.White;
-            this.diagramConnector5.BeginItem = this.diagramShape6;
-            this.diagramConnector5.BeginItemPointIndex = 3;
-            this.diagramConnector5.BeginPoint = new DevExpress.Utils.PointFloat(770.6107F, 420.4508F);
-            this.diagramConnector5.EndItem = this.diagramShape3;
-            this.diagramConnector5.EndItemPointIndex = 1;
-            this.diagramConnector5.EndPoint = new DevExpress.Utils.PointFloat(663.5676F, 371.9084F);
-            this.diagramConnector5.Points = new DevExpress.XtraDiagram.PointCollection(new DevExpress.Utils.PointFloat[] {
-            new DevExpress.Utils.PointFloat(682F, 420.4508F),
-            new DevExpress.Utils.PointFloat(682F, 371.9084F)});
+            this.rdoCentrale.AutoSize = true;
+            this.rdoCentrale.Checked = true;
+            this.rdoCentrale.Location = new System.Drawing.Point(39, 13);
+            this.rdoCentrale.Name = "rdoCentrale";
+            this.rdoCentrale.Size = new System.Drawing.Size(82, 21);
+            this.rdoCentrale.TabIndex = 12;
+            this.rdoCentrale.TabStop = true;
+            this.rdoCentrale.Text = "Centrale";
+            this.rdoCentrale.UseVisualStyleBackColor = true;
+            this.rdoCentrale.CheckedChanged += new System.EventHandler(this.rdoCentrale_CheckedChanged);
             // 
-            // diagramConnector6
+            // rdoConso
             // 
-            this.diagramConnector6.Appearance.ContentBackground = System.Drawing.Color.White;
-            this.diagramConnector6.BeginItem = this.diagramShape7;
-            this.diagramConnector6.BeginItemPointIndex = 3;
-            this.diagramConnector6.BeginPoint = new DevExpress.Utils.PointFloat(750F, 510F);
-            this.diagramConnector6.EndItem = this.diagramShape3;
-            this.diagramConnector6.EndItemPointIndex = 2;
-            this.diagramConnector6.EndPoint = new DevExpress.Utils.PointFloat(659.8176F, 374.6329F);
-            this.diagramConnector6.Points = new DevExpress.XtraDiagram.PointCollection(new DevExpress.Utils.PointFloat[] {
-            new DevExpress.Utils.PointFloat(659.8176F, 510F)});
+            this.rdoConso.AutoSize = true;
+            this.rdoConso.Location = new System.Drawing.Point(156, 13);
+            this.rdoConso.Name = "rdoConso";
+            this.rdoConso.Size = new System.Drawing.Size(113, 21);
+            this.rdoConso.TabIndex = 13;
+            this.rdoConso.Text = "Consomateur";
+            this.rdoConso.UseVisualStyleBackColor = true;
+            this.rdoConso.CheckedChanged += new System.EventHandler(this.rdoConso_CheckedChanged);
             // 
-            // diagramConnector7
+            // label6
             // 
-            this.diagramConnector7.Appearance.ContentBackground = System.Drawing.Color.White;
-            this.diagramConnector7.BeginItem = this.diagramShape3;
-            this.diagramConnector7.BeginItemPointIndex = 5;
-            this.diagramConnector7.BeginPoint = new DevExpress.Utils.PointFloat(650F, 367.5F);
-            this.diagramConnector7.EndItem = this.diagramShape2;
-            this.diagramConnector7.EndItemPointIndex = 0;
-            this.diagramConnector7.EndPoint = new DevExpress.Utils.PointFloat(255F, 367.5F);
-            this.diagramConnector7.Points = new DevExpress.XtraDiagram.PointCollection(new DevExpress.Utils.PointFloat[0]);
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(497, 93);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(90, 17);
+            this.label6.TabIndex = 14;
+            this.label6.Text = "Consomation";
             // 
-            // diagramShape8
+            // txtConsomation
             // 
-            this.diagramShape8.Position = new DevExpress.Utils.PointFloat(240F, 340F);
-            this.diagramShape8.Shape = DevExpress.Diagram.Core.BasicShapes.Ellipse;
-            this.diagramShape8.Size = new System.Drawing.SizeF(20F, 15F);
+            this.txtConsomation.Location = new System.Drawing.Point(593, 93);
+            this.txtConsomation.Name = "txtConsomation";
+            this.txtConsomation.Size = new System.Drawing.Size(159, 22);
+            this.txtConsomation.TabIndex = 15;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(500, 123);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(37, 17);
+            this.label7.TabIndex = 16;
+            this.label7.Text = "Nom";
+            // 
+            // txtNom
+            // 
+            this.txtNom.Location = new System.Drawing.Point(593, 121);
+            this.txtNom.Name = "txtNom";
+            this.txtNom.Size = new System.Drawing.Size(159, 22);
+            this.txtNom.TabIndex = 17;
+            // 
+            // lstInfo2
+            // 
+            this.lstInfo2.FormattingEnabled = true;
+            this.lstInfo2.ItemHeight = 16;
+            this.lstInfo2.Location = new System.Drawing.Point(561, 261);
+            this.lstInfo2.Name = "lstInfo2";
+            this.lstInfo2.Size = new System.Drawing.Size(498, 164);
+            this.lstInfo2.TabIndex = 18;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.diagramControl1);
+            this.ClientSize = new System.Drawing.Size(1142, 570);
+            this.Controls.Add(this.lstInfo2);
+            this.Controls.Add(this.txtNom);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.txtConsomation);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.rdoConso);
+            this.Controls.Add(this.rdoCentrale);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.lstInfo);
+            this.Controls.Add(this.txtPol);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.txtCoutProd);
+            this.Controls.Add(this.txtProduction);
+            this.Controls.Add(this.txtCreer);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
             this.Name = "Form1";
             this.Text = "Form1";
-            ((System.ComponentModel.ISupportInitialize)(this.diagramControl1)).EndInit();
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
-        private DevExpress.XtraDiagram.DiagramControl diagramControl1;
-        private DevExpress.XtraDiagram.DiagramShape diagramShape1;
-        private DevExpress.XtraDiagram.DiagramShape diagramShape2;
-        private DevExpress.XtraDiagram.DiagramShape diagramShape3;
-        private DevExpress.XtraDiagram.DiagramShape diagramShape4;
-        private DevExpress.XtraDiagram.DiagramShape diagramShape5;
-        private DevExpress.XtraDiagram.DiagramShape diagramShape6;
-        private DevExpress.XtraDiagram.DiagramShape diagramShape7;
-        private DevExpress.XtraDiagram.DiagramConnector diagramConnector1;
-        private DevExpress.XtraDiagram.DiagramConnector diagramConnector2;
-        private DevExpress.XtraDiagram.DiagramConnector diagramConnector3;
-        private DevExpress.XtraDiagram.DiagramConnector diagramConnector4;
-        private DevExpress.XtraDiagram.DiagramConnector diagramConnector5;
-        private DevExpress.XtraDiagram.DiagramConnector diagramConnector6;
-        private DevExpress.XtraDiagram.DiagramConnector diagramConnector7;
-        private DevExpress.XtraDiagram.DiagramShape diagramShape8;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TextBox txtCreer;
+        private System.Windows.Forms.TextBox txtProduction;
+        private System.Windows.Forms.TextBox txtCoutProd;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.TextBox txtPol;
+        private System.Windows.Forms.ListBox lstInfo;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.RadioButton rdoCentrale;
+        private System.Windows.Forms.RadioButton rdoConso;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.TextBox txtConsomation;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.TextBox txtNom;
+        private System.Windows.Forms.ListBox lstInfo2;
     }
 }
 
